@@ -45,12 +45,12 @@ document.addEventListener("DOMContentLoaded", () => {
       document.getElementById("ticket-num").textContent = availableTickets;
   
       //If statement to Disable the "Buy Ticket" button if no tickets are available
-      const buyButton = document.getElementById("buy-ticket");
-      if (availableTickets === 0) {
-        buyButton.disabled = true;
-      } else {
-        buyButton.disabled = false;
-      }
+    //   const buyButton = document.getElementById("buy-ticket");
+    //   if (availableTickets === 0) {
+    //     buyButton.disabled = true;
+    //   } else {
+    //     buyButton.disabled = false;
+    //   }
     };
   
     // Function to replicate a ticket purchase
